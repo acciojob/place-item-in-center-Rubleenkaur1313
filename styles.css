@@ -1,2 +1,18 @@
+html, body {
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Ensure body takes full height */
+}
 
-/* Your CSS Code here. */
+.holder {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
+
+.item-1 {
+    width: 100px; /* Set width of item-1 */
+    height: 100px; /* Set height of item-1 */
+    background-color: red; /* Set background color of item-1 */
+}
